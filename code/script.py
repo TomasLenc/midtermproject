@@ -20,7 +20,7 @@ plot.savefig('pairwise_relationships.png')
 
 
 array = df.values
-X = array[0,0:4]
+X = array[:,0:4]
 Y = array[:,4]
 test_size = 0.2
 seed = 7
